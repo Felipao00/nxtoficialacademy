@@ -5,24 +5,25 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
   }
   
   body {
-    @apply bg-black text-white antialiased;
+    @apply bg-black text-white antialiased overflow-x-hidden;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center px-8 py-4 bg-emerald-500 text-black font-bold rounded-full transition-all duration-300 hover:bg-emerald-400 hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/30 focus:outline-none focus:ring-2 focus:ring-emerald-500/50;
+    @apply inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-emerald-500 text-black font-bold rounded-full transition-all duration-300 hover:bg-emerald-400 hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/30 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 text-sm sm:text-base;
   }
   
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-8 py-4 bg-transparent text-white font-bold rounded-full border-2 border-emerald-500/30 transition-all duration-300 hover:border-emerald-500 hover:bg-emerald-500/10 focus:outline-none focus:ring-2 focus:ring-emerald-500/50;
+    @apply inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-transparent text-white font-bold rounded-full border-2 border-emerald-500/30 transition-all duration-300 hover:border-emerald-500 hover:bg-emerald-500/10 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 text-sm sm:text-base;
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center px-6 py-2.5 bg-transparent text-white font-semibold rounded-full border border-white/20 transition-all duration-300 hover:border-emerald-500 hover:text-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/50;
+    @apply inline-flex items-center justify-center px-4 sm:px-6 py-2 sm:py-2.5 bg-transparent text-white font-semibold rounded-full border border-white/20 transition-all duration-300 hover:border-emerald-500 hover:text-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 text-xs sm:text-sm;
   }
 
   .card-dark {
@@ -30,7 +31,7 @@
   }
 
   .card-dark:hover {
-    @apply border-emerald-500/30 shadow-lg shadow-emerald-500/10 transform -translate-y-1;
+    @apply border-emerald-500/30 shadow-lg shadow-emerald-500/10;
   }
 }
 

@@ -23,16 +23,16 @@ export default function Header() {
           : "bg-transparent"
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-14 sm:h-16">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-3 group">
+          <a href="#" className="flex items-center gap-2 sm:gap-3">
             <img
               src="/logo/nxt-academy.png"
               alt="NXT Academy"
-              className="h-10 w-10 group-hover:scale-110 transition-transform duration-300"
+              className="h-8 w-8 sm:h-10 sm:w-10"
             />
-            <span className="text-lg font-bold text-white group-hover:text-emerald-400 transition-colors duration-300">
+            <span className="text-base sm:text-lg font-bold text-white">
               NXT Academy
             </span>
           </a>
@@ -63,20 +63,20 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile Menu - Apenas botões */}
+        {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-6 border-t border-emerald-500/20 bg-black">
+          <div className="md:hidden py-4 border-t border-emerald-500/20 bg-black">
             <div className="flex flex-col gap-3">
               <a
                 href={CHECKOUT_URL}
-                className="btn-primary w-full text-center"
+                className="btn-primary w-full text-center text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Assine Agora
               </a>
               <a
                 href={MEMBER_AREA_URL}
-                className="btn-outline w-full text-center"
+                className="btn-outline w-full text-center text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Sou aluno
