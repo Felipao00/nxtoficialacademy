@@ -23,46 +23,51 @@ export default function Academy() {
   ];
 
   return (
-    <section className="py-24 bg-black relative overflow-hidden">
+    <section className="py-16 sm:py-24 bg-black relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-emerald-500 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500 rounded-full blur-3xl" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-16 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-500/10 border border-emerald-500/30 rounded-full mb-6">
-              <span className="text-emerald-400 font-bold text-sm tracking-wider">NXT ACADEMY</span>
+            <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+              <img
+                src="/logo/nxt-academy.svg"
+                alt="NXT Academy"
+                className="h-8 w-8 sm:h-12 sm:w-12"
+              />
+              <span className="text-emerald-400 font-bold text-xs sm:text-sm tracking-wider">NXT ACADEMY</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-3 sm:mb-6">
               Seu acesso{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-500">
                 não termina no download.
               </span>
             </h2>
-            <p className="text-xl text-gray-400 leading-relaxed mb-8">
+            <p className="text-sm sm:text-xl text-gray-400 leading-relaxed">
               Ao adquirir o NXT AI Pack, você também recebe acesso à NXT Academy,
               onde seus materiais ficam organizados e novos conteúdos podem ser
               adicionados ao longo do tempo.
             </p>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-3 sm:space-y-6">
             {highlights.map((highlight) => (
               <div
                 key={highlight.title}
-                className="card-dark p-8 flex items-start gap-6 group"
+                className="card-dark p-4 sm:p-8 flex items-start gap-3 sm:gap-6 group"
               >
-                <div className={`w-16 h-16 flex-shrink-0 flex items-center justify-center bg-emerald-500/10 rounded-2xl border border-emerald-500/20 transition-all duration-500 ${highlight.animation}`}>
-                  <svg className="w-8 h-8 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className={`w-11 h-11 sm:w-16 sm:h-16 flex-shrink-0 flex items-center justify-center bg-emerald-500/10 rounded-xl sm:rounded-2xl border border-emerald-500/20 transition-all duration-500 ${highlight.animation}`}>
+                  <svg className="w-5 h-5 sm:w-8 sm:h-8 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={highlight.icon} />
                   </svg>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors duration-300">
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-base sm:text-2xl font-bold text-white mb-1 sm:mb-2 group-hover:text-emerald-400 transition-colors duration-300">
                     {highlight.title}
                   </h3>
-                  <p className="text-gray-400 text-lg leading-relaxed">{highlight.description}</p>
+                  <p className="text-xs sm:text-lg text-gray-400 leading-relaxed">{highlight.description}</p>
                 </div>
               </div>
             ))}

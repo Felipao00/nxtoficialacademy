@@ -62,17 +62,17 @@ export default function Audience() {
   ];
 
   return (
-    <section ref={sectionRef} className="py-24 bg-black relative overflow-hidden">
+    <section ref={sectionRef} className="py-16 sm:py-24 bg-black relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-full h-full opacity-5">
-          <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-emerald-500 rounded-full blur-3xl animate-float" />
-          <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-green-500 rounded-full blur-3xl animate-float animation-delay-400" />
+          <div className="absolute top-1/4 left-1/4 w-48 sm:w-72 h-48 sm:h-72 bg-emerald-500 rounded-full blur-3xl animate-float" />
+          <div className="absolute bottom-1/4 right-1/4 w-48 sm:w-72 h-48 sm:h-72 bg-green-500 rounded-full blur-3xl animate-float animation-delay-400" />
         </div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-20">
+          <h2 className="text-2xl sm:text-4xl lg:text-6xl font-extrabold text-white mb-3 sm:mb-6">
             Feito para quem quer{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-500">
               aproveitar melhor a IA.
@@ -80,24 +80,24 @@ export default function Audience() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {audiences.map((audience, index) => (
             <div
               key={index}
-              className={`card-dark p-8 group transition-all duration-500 ${
+              className={`card-dark p-4 sm:p-8 group transition-all duration-500 ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <div className={`w-20 h-20 mx-auto mb-6 flex items-center justify-center bg-gradient-to-br ${audience.color} rounded-2xl shadow-lg shadow-emerald-500/20 group-hover:scale-110 group-hover:shadow-emerald-500/40 transition-all duration-300 ${audience.animation}`}>
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className={`w-14 h-14 sm:w-20 sm:h-20 mx-auto mb-3 sm:mb-6 flex items-center justify-center bg-gradient-to-br ${audience.color} rounded-xl sm:rounded-2xl shadow-lg shadow-emerald-500/20 group-hover:scale-110 group-hover:shadow-emerald-500/40 transition-all duration-300 ${audience.animation}`}>
+                <svg className="w-7 h-7 sm:w-10 sm:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={audience.icon} />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-white text-center mb-3 group-hover:text-emerald-400 transition-colors duration-300">
+              <h3 className="text-base sm:text-xl font-bold text-white text-center mb-1.5 sm:mb-3 group-hover:text-emerald-400 transition-colors duration-300">
                 {audience.title}
               </h3>
-              <p className="text-gray-400 text-center leading-relaxed">
+              <p className="text-xs sm:text-base text-gray-400 text-center leading-relaxed">
                 {audience.description}
               </p>
             </div>
