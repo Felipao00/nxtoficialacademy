@@ -33,45 +33,47 @@ export default function WhatYouGet() {
   ];
 
   return (
-    <section ref={sectionRef} id="o-que-voce-recebe" className="py-24 bg-black relative overflow-hidden">
+    <section ref={sectionRef} id="o-que-voce-recebe" className="py-16 sm:py-24 bg-black relative overflow-hidden">
       <div className="absolute inset-0">
-        <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-emerald-500/5 rounded-full blur-3xl animate-float" />
+        <div className="absolute top-1/3 left-1/3 w-64 sm:w-96 h-64 sm:h-96 bg-emerald-500/5 rounded-full blur-3xl animate-float" />
       </div>
 
-      <div className="relative max-w-5xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-20">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4 sm:mb-6">
             Tudo o que você recebe{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-500">
               por um único acesso.
             </span>
           </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+          <p className="text-base sm:text-xl text-gray-400 max-w-3xl mx-auto px-2 sm:px-0">
             Um pacote completo para você dominar as melhores ferramentas de IA do mercado.
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-3 sm:space-y-4">
           {BENEFITS.map((benefit, index) => (
             <div
               key={index}
-              className={`card-dark p-6 flex items-center gap-6 group transition-all duration-500 ${
+              className={`card-dark p-4 sm:p-6 flex items-center gap-3 sm:gap-6 group transition-all duration-500 ${
                 isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <div className="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-emerald-500/10 rounded-2xl border border-emerald-500/20 group-hover:scale-110 group-hover:bg-emerald-500/20 transition-all duration-300">
-                <svg className="w-7 h-7 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-10 h-10 sm:w-14 sm:h-14 flex-shrink-0 flex items-center justify-center bg-emerald-500/10 rounded-xl sm:rounded-2xl border border-emerald-500/20 group-hover:scale-110 group-hover:bg-emerald-500/20 transition-all duration-300">
+                <svg className="w-5 h-5 sm:w-7 sm:h-7 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={benefitIcons[index]} />
                 </svg>
               </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-bold text-white mb-1 group-hover:text-emerald-400 transition-colors duration-300">
+              <div className="flex-1 min-w-0">
+                <h3 className="text-base sm:text-lg font-bold text-white mb-1 group-hover:text-emerald-400 transition-colors duration-300">
                   {benefit.title}
                 </h3>
-                <p className="text-gray-400">{benefit.description}</p>
+                <p className="text-sm sm:text-base text-gray-400">
+                  {benefit.description}
+                </p>
               </div>
-              <svg className="w-6 h-6 text-emerald-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </div>
