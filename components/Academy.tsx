@@ -33,7 +33,7 @@ export default function Academy() {
           <div>
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
               <img
-                src="/logo/nxt-academy.svg"
+                src="/logo/nxt-academy.png"
                 alt="NXT Academy"
                 className="h-8 w-8 sm:h-12 sm:w-12"
               />
