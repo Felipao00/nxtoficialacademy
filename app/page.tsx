@@ -5,6 +5,7 @@ import Categories from "@/components/Categories";
 import WhatYouGet from "@/components/WhatYouGet";
 import Bonuses from "@/components/Bonuses";
 import Academy from "@/components/Academy";
+import MemberArea from "@/components/MemberArea";
 import Audience from "@/components/Audience";
 import HowItWorks from "@/components/HowItWorks";
 import Offer from "@/components/Offer";
@@ -23,6 +24,7 @@ export default function Home() {
         <WhatYouGet />
         <Bonuses />
         <Academy />
+        <MemberArea />
         <Audience />
         <HowItWorks />
         <Offer />
