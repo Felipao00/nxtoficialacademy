@@ -10,7 +10,7 @@ export default function FAQ() {
     <section id="faq" className="py-24 bg-black">
       <div className="max-w-3xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+          <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-green-300 to-emerald-400 animate-shimmer-text">
             Perguntas frequentes
           </h2>
         </div>

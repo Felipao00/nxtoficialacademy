@@ -42,7 +42,7 @@ export default function WhatYouGet() {
         <div className="text-center mb-12 sm:mb-20">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4 sm:mb-6">
             Tudo o que você recebe{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-green-300 to-emerald-400 animate-shimmer-text">
               por um único acesso.
             </span>
           </h2>

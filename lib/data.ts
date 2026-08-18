@@ -1,5 +1,5 @@
-export const CHECKOUT_URL = "https://pay.kiwify.com.br/JIfVM9C";
-export const MEMBER_AREA_URL = "COLE_AQUI_O_LINK_DA_AREA_DE_MEMBROS";
+export const CHECKOUT_URL = "https://pay.kiwify.com.br/t1nUF6B";
+export const MEMBER_AREA_URL = "https://members.kiwify.com/?club=d60c56ce-0a4a-41f3-86c1-be040042ac28";
 
 export const NAV_LINKS = [
   { label: "O que você recebe", href: "#o-que-voce-recebe" },

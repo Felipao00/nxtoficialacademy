@@ -45,7 +45,7 @@ export default function Offer() {
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-2 sm:mb-4">
             Oferta{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-green-300 to-emerald-400 animate-shimmer-text">
               Especial
             </span>
           </h2>

@@ -74,7 +74,7 @@ export default function Audience() {
         <div className="text-center mb-12 sm:mb-20">
           <h2 className="text-2xl sm:text-4xl lg:text-6xl font-extrabold text-white mb-3 sm:mb-6">
             Feito para quem quer{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-green-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-green-300 to-emerald-400 animate-shimmer-text">
               aproveitar melhor a IA.
             </span>
           </h2>

@@ -5,12 +5,12 @@ import Categories from "@/components/Categories";
 import WhatYouGet from "@/components/WhatYouGet";
 import Bonuses from "@/components/Bonuses";
 import Academy from "@/components/Academy";
-import MemberArea from "@/components/MemberArea";
 import Audience from "@/components/Audience";
 import HowItWorks from "@/components/HowItWorks";
 import Offer from "@/components/Offer";
+import Guarantee from "@/components/Guarantee";
 import FAQ from "@/components/FAQ";
-import FinalCTA from "@/components/FinalCTA";
+// import FinalCTA from "@/components/FinalCTA"; // ← REMOVA ESTA LINHA
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -24,12 +24,12 @@ export default function Home() {
         <WhatYouGet />
         <Bonuses />
         <Academy />
-        <MemberArea />
         <Audience />
         <HowItWorks />
         <Offer />
+        <Guarantee />
         <FAQ />
-        <FinalCTA />
+        {/* <FinalCTA /> ← REMOVA ESTA LINHA */}
       </main>
       <Footer />
     </>
