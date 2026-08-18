@@ -9,7 +9,6 @@ import Audience from "@/components/Audience";
 import HowItWorks from "@/components/HowItWorks";
 import Offer from "@/components/Offer";
 import FAQ from "@/components/FAQ";
-import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -27,7 +26,6 @@ export default function Home() {
         <HowItWorks />
         <Offer />
         <FAQ />
-        <FinalCTA />
       </main>
       <Footer />
     </>
