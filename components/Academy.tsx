@@ -46,7 +46,7 @@ export default function Academy() {
               </span>
             </h2>
             <p className="text-sm sm:text-xl text-gray-400 leading-relaxed mb-6 sm:mb-8">
-              Ao adquirir o NXT AI Pack, você recebe acesso imediato à NXT Academy,
+              Ao adquirir o NXT AI Pack, você recebe acesso imediato à Nativa Academy,
               uma área de membros completa onde você encontra:
             </p>
             

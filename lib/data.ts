@@ -40,7 +40,7 @@ export const BENEFITS = [
     description: "Conteúdos extras para ampliar suas possibilidades.",
   },
   {
-    title: "Acesso à NXT Academy",
+    title: "Acesso à Nativa Academy",
     description: "Área de membros para acessar seus materiais.",
   },
   {
@@ -60,7 +60,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: "Como recebo o material?",
-    answer: "Após a confirmação do pagamento, você recebe acesso à NXT Academy.",
+    answer: "Após a confirmação do pagamento, você recebe acesso à Nativa Academy.",
   },
   {
     question: "O pagamento é mensal?",
@@ -68,6 +68,6 @@ export const FAQ_ITEMS = [
   },
   {
     question: "Vou receber novos conteúdos?",
-    answer: "A NXT Academy foi criada para permitir a adição de novos conteúdos e materiais ao longo do tempo.",
+    answer: "A Nativa Academy foi criada para permitir a adição de novos conteúdos e materiais ao longo do tempo.",
   },
 ];
