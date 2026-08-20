@@ -62,7 +62,7 @@ export default function Guarantee() {
                   </defs>
                   <text fill="rgba(16, 185, 129, 0.6)" fontSize="12" fontWeight="bold" letterSpacing="3">
                     <textPath href="#circlePath">
-                      NXT ACADEMY • GARANTIA DE 7 DIAS • RISCO ZERO • NXT ACADEMY •
+                      NATIVA ACADEMY • GARANTIA DE 7 DIAS • RISCO ZERO • NATIVA ACADEMY •
                     </textPath>
                   </text>
                 </svg>

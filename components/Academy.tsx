@@ -34,10 +34,10 @@ export default function Academy() {
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
               <img
                 src="/logo/nxt-academy.png"
-                alt="NXT Academy"
+                alt="Nativa Academy"
                 className="h-8 w-8 sm:h-12 sm:w-12"
               />
-              <span className="text-emerald-400 font-bold text-xs sm:text-sm tracking-wider">NXT ACADEMY</span>
+              <span className="text-emerald-400 font-bold text-xs sm:text-sm tracking-wider">NATIVA ACADEMY</span>
             </div>
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-3 sm:mb-6">
               Seu acesso{" "}

@@ -6,11 +6,11 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <img
               src="/logo/nxt-academy.png"
-              alt="NXT Academy"
+              alt="Nativa Academy"
               className="h-10 w-10"
             />
             <div>
-              <span className="text-lg font-bold text-white">NXT Academy</span>
+              <span className="text-lg font-bold text-white">Nativa Academy</span>
               <p className="text-sm text-gray-500 mt-1">
                 Ferramentas, conhecimento e tecnologia para quem quer evoluir.
               </p>
@@ -32,7 +32,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-white/10 text-center">
           <p className="text-sm text-gray-500">
-            © 2026 NXT Academy. Todos os direitos reservados.
+            © 2026 Nativa Academy. Todos os direitos reservados.
           </p>
         </div>
       </div>

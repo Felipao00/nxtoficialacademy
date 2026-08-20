@@ -11,7 +11,7 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: "NXT AI Pack — 20 IAs Poderosas",
-  description: "Descubra 20 IAs poderosas para produtividade, criação de conteúdo, programação e muito mais. Acesso pela NXT Academy.",
+  description: "Descubra 20 IAs poderosas para produtividade, criação de conteúdo, programação e muito mais. Acesso pela Nativa Academy.",
   icons: {
     icon: "/logo/favicon.svg",
   },

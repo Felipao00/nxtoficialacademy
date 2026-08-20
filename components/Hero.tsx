@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="absolute inset-0">
           <img
             src="/images/banner-nxt.webp"
-            alt="NXT Academy Banner"
+            alt="Nativa Academy Banner"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/70" />
@@ -65,7 +65,7 @@ export default function Hero() {
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
                 </svg>
-                NXT Academy
+                Nativa Academy
               </span>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Hero() {
                 {[...Array(6)].map((_, j) => (
                   <div key={j} className="flex items-center gap-4 sm:gap-8">
                     <span className="text-sm sm:text-lg font-bold text-emerald-400/80 uppercase tracking-wider">
-                      NXT Academy
+                      Nativa Academy
                     </span>
                     <svg className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-500" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
@@ -102,7 +102,7 @@ export default function Hero() {
                 {[...Array(6)].map((_, j) => (
                   <div key={j} className="flex items-center gap-4 sm:gap-8">
                     <span className="text-sm sm:text-lg font-bold text-emerald-400/60 uppercase tracking-wider">
-                      NXT Academy
+                      Nativa Academy
                     </span>
                     <svg className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-500/70" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
