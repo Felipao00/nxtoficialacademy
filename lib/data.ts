@@ -1,4 +1,4 @@
-export const CHECKOUT_URL = "https://pay.kiwify.com.br/t1nUF6B";
+export const CHECKOUT_URL = "https://pay.kiwify.com.br/tnrFn8V";
 export const MEMBER_AREA_URL = "https://members.kiwify.com/?club=d60c56ce-0a4a-41f3-86c1-be040042ac28";
 
 export const NAV_LINKS = [
