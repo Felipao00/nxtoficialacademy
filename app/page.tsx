@@ -1,15 +1,13 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
-import Categories from "@/components/Categories";
+import Solution from "@/components/Solution";
 import WhatYouGet from "@/components/WhatYouGet";
-import Bonuses from "@/components/Bonuses";
-import Academy from "@/components/Academy";
-import Audience from "@/components/Audience";
-import HowItWorks from "@/components/HowItWorks";
+import Demo from "@/components/Demo";
+import MemberArea from "@/components/MemberArea";
 import Offer from "@/components/Offer";
-import Guarantee from "@/components/Guarantee";
 import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -19,15 +17,13 @@ export default function Home() {
       <main>
         <Hero />
         <Problem />
-        <Categories />
+        <Solution />
         <WhatYouGet />
-        <Bonuses />
-        <Academy />
-        <Audience />
-        <HowItWorks />
+        <Demo />
+        <MemberArea />
         <Offer />
-        <Guarantee />
         <FAQ />
+        <FinalCTA />
       </main>
       <Footer />
     </>
