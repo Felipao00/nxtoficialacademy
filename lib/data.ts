@@ -1,4 +1,4 @@
-export const CHECKOUT_URL = "COLE_AQUI_O_LINK_DA_KIWIFY";
+export const CHECKOUT_URL = "https://pay.kiwify.com.br/tnrFn8V";
 
 export const PRICE = "R$ 64,90";
 export const INSTALLMENTS = "9x de R$ 8,42";
