@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import MarqueeBand from "@/components/MarqueeBand";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
 import WhatYouGet from "@/components/WhatYouGet";
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <MarqueeBand />
         <Problem />
         <Solution />
         <WhatYouGet />
